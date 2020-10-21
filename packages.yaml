@@ -1,8 +1,6 @@
 - boop-gtk
 - debtap
-- dprint
 - dust
-- dvm
 - editorconfig-gedit
 - emulsion
 - gedit-autotab-git
@@ -18,7 +16,6 @@
 - gnome-session-properties
 - googler
 - gotop
-- gtksourceview2-pkgbuild
 - gtksourceview3-pkgbuild
 - ibus-daemon
 - ibus-table-others
@@ -43,7 +40,6 @@
 - plata-theme
 - pretty-exec
 - pamac-aur
-- slap-cli
 - starship
 - stockfish
 - update-grub
