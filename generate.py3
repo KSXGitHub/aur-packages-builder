@@ -5,7 +5,7 @@ from sys import exit
 import yaml
 
 def exec(*args: str):
-  status = run(*args).returncode
+  status = run(args).returncode
   if status == 0: return
   print(f'::error::Process exits with non-zero status code: {status}')
   raise exit(status)
