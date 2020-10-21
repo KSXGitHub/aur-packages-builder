@@ -36,7 +36,6 @@
 - nushell
 - nvm
 - oh-my-zsh-git
-- oh-my-zsh-powerline-theme-git
 - plata-theme
 - pretty-exec
 - pamac-aur
@@ -45,4 +44,3 @@
 - update-grub
 - ytop
 - zsh-autocomplete-git
-- zsh-theme-powerlevel9k-git
