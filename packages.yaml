@@ -1,4 +1,4 @@
-- boop-gtk
+# - boop-gtk
 # - debtap
 # - dust
 # - editorconfig-gedit
@@ -31,7 +31,7 @@
 # - nushell
 # - nvm
 # - plata-theme
-# - pretty-exec
+- pretty-exec
 # - pamac-aur
 # - sane-fmt
 # - starship
