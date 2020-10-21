@@ -35,6 +35,6 @@
 - pretty-exec
 - pamac-aur
 - starship
-# - stockfish (TODO: Enable when build-pacman-repo has --arch)
+- stockfish
 - update-grub
 - ytop
