@@ -1,6 +1,6 @@
 # AUR Packages Builder
 
-![.github/workflows/build.yaml](https://github.com/KSXGitHub/aur-packages-builder/workflows/.github/workflows/build.yaml/badge.svg)
+[![.github/workflows/build.yaml](https://github.com/KSXGitHub/aur-packages-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/aur-packages-builder/actions)
 
 Periodically build packages from [the Arch User Repository](https://aur.archlinux.org) and publish them to [my personal pacman repo](https://github.com/KSXGitHub/pacman-repo).
 
