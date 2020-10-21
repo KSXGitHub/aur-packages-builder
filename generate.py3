@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 from subprocess import run
 from os import path, chdir
-from sys import exit
+from sys import exit, stderr
 import yaml
 
 def exec(*args: str):
@@ -22,6 +22,6 @@ for package_name in package_list:
   if type(package_name) != str:
     print('::error::One of the package names is not a string')
     raise exit(1)
-  print('📦', package_name)
+  print('📦', package_name, file=stderr)
   exec('git', 'clone', '--depth=1', f'https://aur.archlinux.org/{package_name}.git', path.join('build', package_name))
-  print()
+  print(file=stderr)
