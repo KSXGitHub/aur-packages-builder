@@ -22,6 +22,6 @@ for package_name in package_list:
   if type(package_name) != str:
     print('::error::One of the package names is not a string')
     raise exit(1)
-  print('📦', package_name, file=stderr)
+  print('📦', package_name, file=stderr, flush=True)
   exec('git', 'clone', '--depth=1', f'https://aur.archlinux.org/{package_name}.git', path.join('build', package_name))
-  print(file=stderr)
+  print(file=stderr, flush=True)
