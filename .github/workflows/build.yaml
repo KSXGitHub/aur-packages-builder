@@ -45,7 +45,7 @@ jobs:
           git config user.name "$COMMIT_AUTHOR_NAME"
           git config user.email "$COMMIT_AUTHOR_EMAIL"
           git add -v .
-          git commit -m "Update by $GITHUB_REPOSITORY@$GITHUB_REF" --allow-empty
+          git commit -m "Update by $GITHUB_REPOSITORY@$GITHUB_SHA" --allow-empty
           echo "username=$AUTH_USERNAME" >> /tmp/git-login.txt
           echo "password=$AUTH_PASSWORD" >> /tmp/git-login.txt
           echo '#! /bin/bash' >> /tmp/credential-helper
