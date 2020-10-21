@@ -52,4 +52,5 @@ jobs:
           echo 'cat /tmp/git-login.txt' >> /tmp/credential-helper
           chmod +x /tmp/credential-helper
           git config credential.helper '/tmp/credential-helper'
+          git pull origin master --rebase=true # to avoid conflicts due to data races
           git push origin master
