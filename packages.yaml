@@ -34,7 +34,7 @@
 - plata-theme
 - pretty-exec
 - pamac-aur
-- starship
+# - starship # TODO: Add --allow-failure to `build-pacman-repo build`
 - stockfish
 - update-grub
 - ytop
