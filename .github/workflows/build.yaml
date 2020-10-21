@@ -38,7 +38,7 @@ jobs:
         env:
           COMMIT_AUTHOR_NAME: ${{ secrets.COMMIT_AUTHOR_NAME }}
           COMMIT_AUTHOR_EMAIL: ${{ secrets.COMMIT_AUTHOR_EMAIL }}
-          AUTH_USERNAME: ${{ secrets.AUTH_USERNAME }}
+          AUTH_USERNAME: KSXGitHub
           AUTH_PASSWORD: ${{ secrets.AUTH_PASSWORD }}
         run: |
           cd pacman-repo
