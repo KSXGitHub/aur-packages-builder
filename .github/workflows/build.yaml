@@ -32,7 +32,7 @@ jobs:
       - name: Build pacman packages
         uses: pacman-repo-builder/action@0.0.0-rc.27
         with:
-          command: build-pacman-repo build --syncdeps --deref-db
+          command: build-pacman-repo build --syncdeps --deref-db --allow--failure
 
       - name: Upload packages
         env:
