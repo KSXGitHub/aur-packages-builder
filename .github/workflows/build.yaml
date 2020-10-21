@@ -1,0 +1,55 @@
+on:
+  workflow_dispatch: {}
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 0 * * *' # 0 AM everyday
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install some APT packages
+        run: sudo apt install -y git python3 python3-yaml
+
+      - name: Clone target repository
+        run: git clone https://github.com/KSXGitHub/pacman-repo.git pacman-repo
+
+      - name: Clone build repositories
+        run: ./generate.py3
+
+      - name: Generate manifest file
+        uses: pacman-repo-builder/action@0.0.0-rc.25
+        with:
+          command: |
+            db_file=pacman-repo/repo/khai.db.tar.gz
+            build-pacman-repo print-config -T $db_file -D build > build-pacman-repo.yaml
+
+      - name: Build pacman packages
+        uses: pacman-repo-builder/action@0.0.0-rc.25
+        with:
+          command: build-pacman-repo build --syncdeps --deref-db
+
+      - name: Upload packages
+        env:
+          COMMIT_AUTHOR_NAME: ${{ secrets.COMMIT_AUTHOR_NAME }}
+          COMMIT_AUTHOR_EMAIL: ${{ secrets.COMMIT_AUTHOR_EMAIL }}
+          AUTH_USERNAME: ${{ secrets.AUTH_USERNAME }}
+          AUTH_PASSWORD: ${{ secrets.AUTH_PASSWORD }}
+        run: |
+          cd pacman-repo
+          git config user.name "$COMMIT_AUTHOR_NAME"
+          git config user.email "$COMMIT_AUTHOR_EMAIL"
+          git add -v .
+          git commit -m "Update by $GITHUB_REPOSITORY@$GITHUB_REF" --allow-empty
+          echo "username=$AUTH_USERNAME" >> /tmp/git-login.txt
+          echo "password=$AUTH_PASSWORD" >> /tmp/git-login.txt
+          echo '#! /bin/bash' >> /tmp/credential-helper
+          echo 'cat /tmp/git-login.txt' >> /tmp/credential-helper
+          chmod +x /tmp/credential-helper
+          git config credential.helper '/tmp/credential-helper'
+          git push origin master
