@@ -23,14 +23,14 @@ jobs:
         run: ./generate.py3
 
       - name: Generate manifest file
-        uses: pacman-repo-builder/action@0.0.0-rc.26
+        uses: pacman-repo-builder/action@0.0.0-rc.27
         with:
           command: |
             db_file=pacman-repo/repo/khai.db.tar.gz
             build-pacman-repo print-config -T $db_file -D build > build-pacman-repo.yaml
 
       - name: Build pacman packages
-        uses: pacman-repo-builder/action@0.0.0-rc.26
+        uses: pacman-repo-builder/action@0.0.0-rc.27
         with:
           command: build-pacman-repo build --syncdeps --deref-db
 
