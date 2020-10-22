@@ -34,7 +34,15 @@ jobs:
         with:
           command: |
             packager='Hoàng Văn Khải <hvksmr1996@gmail.com>'
-            build-pacman-repo build --syncdeps --deref-db --allow-failure --clean --packager "$packager"
+            (
+              build-pacman-repo build --syncdeps --deref-db --allow-failure --clean --packager "$packager"
+            ) |& tee build-pacman-repo.log
+
+      - name: Upload log file
+        uses: actions/upload-artifact@v2
+        with:
+          name: build-pacman-repo.log
+          path: build-pacman-repo.log
 
       - name: Upload packages
         env:
