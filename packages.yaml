@@ -38,3 +38,6 @@
 - stockfish
 - update-grub
 - ytop
+
+# dependencies
+- qpm # iconthemebrowser
