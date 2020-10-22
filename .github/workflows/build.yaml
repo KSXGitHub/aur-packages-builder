@@ -33,7 +33,10 @@ jobs:
         uses: pacman-repo-builder/action@0.0.0-rc.28
         with:
           command: |
-            pacman -S --noconfirm rustup # some packages require nightly rust
+            # some packages require nightly rust
+            pacman -S --noconfirm rustup
+            rustup default nightly
+
             packager='Hoàng Văn Khải <hvksmr1996@gmail.com>'
             build-pacman-repo build --syncdeps --deref-db --allow-failure --clean --packager "$packager"
 
