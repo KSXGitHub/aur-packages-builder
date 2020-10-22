@@ -1,5 +1,10 @@
+- adduser
+- archive-mounter
+- aurvote
 - boop-gtk
+- bottom
 - debtap
+- deno
 - dust
 - editorconfig-gedit
 - emulsion
@@ -30,13 +35,14 @@
 - numix-gtk-theme
 - nushell
 - nvm
+- pamac-aur
 - plata-theme
 - pretty-exec
-- pamac-aur
 - sane-fmt
 - starship
 - stockfish
 - update-grub
+- webtorrent-desktop
 - ytop
 
 # dependencies
