@@ -14,7 +14,9 @@
 - gnome-session-properties
 - googler
 - gotop
+- gtksourceview2-pkgbuild
 - gtksourceview3-pkgbuild
+- gtksourceview4-pkgbuild
 - ibus-daemon
 - ibus-table-others
 - ibus-uniemoji
@@ -23,6 +25,7 @@
 - imgurbash2
 - komorebi
 - micro
+- mime-pkgbuild
 - miniserve
 - nautilus-folder-icons
 - nodejs-ungit
