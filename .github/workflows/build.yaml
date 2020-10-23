@@ -23,22 +23,29 @@ jobs:
         run: ./generate.py3
 
       - name: Generate manifest file
-        uses: pacman-repo-builder/action@0.0.0-rc.28
+        uses: pacman-repo-builder/action@0.0.0-rc.30
         with:
           command: |
-            db_file=pacman-repo/repo/khai.db.tar.gz
-            build-pacman-repo print-config -T $db_file -D build > build-pacman-repo.yaml
+            args=(
+              --repository pacman-repo/repo/khai.db.tar.gz
+              --container build
+              --with-install-missing-dependencies true
+              --with-dereference-database-symlinks true
+              --with-allow-failure true
+              --with-clean-after-build true
+              --with-packager 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
+            )
+            build-pacman-repo print-config "${args[@]}" | tee build-pacman-repo.yaml
 
       - name: Build pacman packages
-        uses: pacman-repo-builder/action@0.0.0-rc.28
+        uses: pacman-repo-builder/action@0.0.0-rc.30
         with:
           command: |
             # some packages require nightly rust
             pacman -S --noconfirm rustup
             rustup default nightly
 
-            packager='Hoàng Văn Khải <hvksmr1996@gmail.com>'
-            build-pacman-repo build --syncdeps --deref-db --allow-failure --clean --packager "$packager"
+            build-pacman-repo build
 
       - name: Upload packages
         env:
