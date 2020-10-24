@@ -33,6 +33,7 @@ jobs:
               --with-dereference-database-symlinks true
               --with-allow-failure true
               --with-clean-after-build true
+              --with-arch-filter x86_64
               --with-packager 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
             )
             build-pacman-repo print-config "${args[@]}" | tee build-pacman-repo.yaml
