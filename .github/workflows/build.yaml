@@ -19,6 +19,10 @@ jobs:
           path: failed-builds.yaml
           key: failed-build-record
 
+      - name: Inspect restored build record
+        continue-on-error: true
+        run: cat failed-builds.yaml
+
       - name: Install some APT packages
         run: sudo apt install -y git python3 python3-yaml
 
@@ -54,6 +58,10 @@ jobs:
             rustup default nightly
 
             build-pacman-repo build
+
+      - name: Inspect changed failed build record
+        continue-on-error: true
+        run: cat failed-builds.yaml
 
       - name: Upload packages
         env:
