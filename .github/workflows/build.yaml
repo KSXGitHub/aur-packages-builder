@@ -19,7 +19,7 @@ jobs:
           path: failed-builds.yaml
           key: failed-build-record
 
-      - name: Inspect restored build record
+      - name: Inspect restored failed build record
         continue-on-error: true
         run: cat failed-builds.yaml
 
