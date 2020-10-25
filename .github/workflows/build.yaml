@@ -33,7 +33,7 @@ jobs:
         run: ./generate.py3
 
       - name: Generate manifest file
-        uses: pacman-repo-builder/action@0.0.0-rc.34
+        uses: pacman-repo-builder/action@0.0.0-rc.36
         with:
           command: |
             args=(
@@ -50,7 +50,7 @@ jobs:
             build-pacman-repo print-config "${args[@]}" | tee build-pacman-repo.yaml
 
       - name: Build pacman packages
-        uses: pacman-repo-builder/action@0.0.0-rc.34
+        uses: pacman-repo-builder/action@0.0.0-rc.36
         with:
           command: |
             # some packages require nightly rust
