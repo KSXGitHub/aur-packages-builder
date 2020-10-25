@@ -13,21 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Restore failed build record of previous run
-        uses: actions/cache@v2.1.2
-        with:
-          path: failed-builds.yaml
-          key: failed-build-record
-
-      - name: Inspect restored failed build record
-        continue-on-error: true
-        run: cat failed-builds.yaml
-
       - name: Install some APT packages
         run: sudo apt install -y git python3 python3-yaml
 
       - name: Clone target repository
         run: git clone https://github.com/KSXGitHub/pacman-repo.git pacman-repo
+
+      - name: Inspect restored failed build record
+        continue-on-error: true
+        run: cat pacman-repo/failed-build-records/aur-packages-builder.yaml
 
       - name: Clone build repositories
         run: ./generate.py3
@@ -39,7 +33,7 @@ jobs:
             args=(
               --repository pacman-repo/repo/khai.db.tar.gz
               --container build
-              --with-record-failed-builds failed-builds.yaml
+              --with-record-failed-builds pacman-repo/failed-build-records/aur-packages-builder.yaml
               --with-install-missing-dependencies true
               --with-dereference-database-symlinks true
               --with-allow-failure true
@@ -61,7 +55,7 @@ jobs:
 
       - name: Inspect changed failed build record
         continue-on-error: true
-        run: cat failed-builds.yaml
+        run: cat pacman-repo/failed-build-records/aur-packages-builder.yaml
 
       - name: Upload packages
         env:
