@@ -49,7 +49,9 @@ jobs:
           command: |
             # some packages require nightly rust
             pacman -S --noconfirm rustup
-            rustup default nightly
+            rustup toolchain install nightly
+            rustup toolchain install stable
+            rustup default stable
 
             build-pacman-repo build
 
