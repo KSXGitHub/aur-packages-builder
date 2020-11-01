@@ -39,6 +39,7 @@ jobs:
               --with-allow-failure true
               --with-clean-after-build true
               --with-arch-filter x86_64
+              --with-check disabled
               --with-packager 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
             )
             build-pacman-repo print-config "${args[@]}" | tee build-pacman-repo.yaml
