@@ -52,3 +52,4 @@
 # dependencies
 - qpm # iconthemebrowser
 - wine-valve # proton
+- vkd3d-valve # wine-valve
