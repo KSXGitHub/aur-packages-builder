@@ -38,6 +38,7 @@
 - pamac-aur
 - plata-theme
 - pretty-exec
+- proton
 - sane-fmt
 - sfz
 - starship
@@ -50,3 +51,4 @@
 
 # dependencies
 - qpm # iconthemebrowser
+- wine-valve # proton
