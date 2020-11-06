@@ -3,6 +3,7 @@
 - aurvote
 - bottom
 - debtap
+- dialect
 - dust
 - editorconfig-gedit
 - emulsion
@@ -53,3 +54,5 @@
 - qpm # iconthemebrowser
 - wine-valve # proton
 - vkd3d-valve # wine-valve
+- python-googletrans # dialect
+- python-gtts # dialect
