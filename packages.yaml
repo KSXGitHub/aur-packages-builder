@@ -58,3 +58,4 @@
 - vkd3d-valve # wine-valve
 - python-googletrans # dialect
 - python-gtts # dialect
+- python-gtts-token # python-gtts (dialect)
