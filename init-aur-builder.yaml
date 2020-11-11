@@ -6,7 +6,7 @@ global-settings:
   dereference-database-symlinks: true
   allow-failure: true
   clean-after-build: true
-  arch-filter: x86_64
+  arch-filter: [x86_64]
   check: disabled
   packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
 aur-package-names:

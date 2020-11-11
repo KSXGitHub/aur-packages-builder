@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Install some APT packages
-        run: sudo apt install -y git python3 python3-yaml
+        run: sudo apt install -y git
 
       - name: Clone target repository
         run: git clone https://github.com/KSXGitHub/pacman-repo.git pacman-repo
@@ -23,29 +23,15 @@ jobs:
         continue-on-error: true
         run: cat pacman-repo/failed-build-records/aur-packages-builder.yaml
 
-      - name: Clone build repositories
-        run: ./generate.py3
-
-      - name: Generate manifest file
-        uses: pacman-repo-builder/action@0.0.0-rc.42
+      - name: Init AUR Builder
+        uses: pacman-repo-builder/action@0.0.0-rc.44
         with:
           command: |
-            args=(
-              --repository pacman-repo/repo/khai.db.tar.gz
-              --container build
-              --with-record-failed-builds pacman-repo/failed-build-records/aur-packages-builder.yaml
-              --with-install-missing-dependencies true
-              --with-dereference-database-symlinks true
-              --with-allow-failure true
-              --with-clean-after-build true
-              --with-arch-filter x86_64
-              --with-check disabled
-              --with-packager 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
-            )
-            build-pacman-repo print-config "${args[@]}" | tee build-pacman-repo.yaml
+            build-pacman-repo init-aur-builder
+            cat build-pacman-repo.yaml
 
       - name: Build pacman packages
-        uses: pacman-repo-builder/action@0.0.0-rc.42
+        uses: pacman-repo-builder/action@0.0.0-rc.44
         with:
           command: |
             # some packages require nightly rust
