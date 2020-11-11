@@ -1,14 +1,14 @@
 global-settings:
-  - repository: pacman-repo/repo/khai.db.tar.gz
-  - container: build
-  - record-failed-builds: pacman-repo/failed-build-records/aur-packages-builder.yaml
-  - install-missing-dependencies: true
-  - dereference-database-symlinks: true
-  - allow-failure: true
-  - clean-after-build: true
-  - arch-filter: x86_64
-  - check: disabled
-  - packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
+  repository: pacman-repo/repo/khai.db.tar.gz
+  container: build
+  record-failed-builds: pacman-repo/failed-build-records/aur-packages-builder.yaml
+  install-missing-dependencies: true
+  dereference-database-symlinks: true
+  allow-failure: true
+  clean-after-build: true
+  arch-filter: x86_64
+  check: disabled
+  packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
 aur-package-names:
   - adduser
   - archive-mounter
