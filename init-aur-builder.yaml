@@ -1,0 +1,65 @@
+global-settings:
+  - repository: pacman-repo/repo/khai.db.tar.gz
+  - container: build
+  - record-failed-builds: pacman-repo/failed-build-records/aur-packages-builder.yaml
+  - install-missing-dependencies: true
+  - dereference-database-symlinks: true
+  - allow-failure: true
+  - clean-after-build: true
+  - arch-filter: x86_64
+  - check: disabled
+  - packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
+aur-package-names:
+  - adduser
+  - archive-mounter
+  - aurvote
+  - bottom
+  - cargo-udeps
+  - debtap
+  - dialect
+  - dust
+  - editorconfig-gedit
+  - emulsion
+  - gedit-cut-line
+  - gedit-duplicate-line
+  - gedit-panel-toggler
+  - gedit-scroll-past
+  - gedit-trailsave
+  - git-delta
+  - giara
+  - gitui
+  - gnome-appfolders-manager
+  - gnome-session-properties
+  - googler
+  - gotop
+  - gtksourceview3-pkgbuild
+  - ibus-daemon
+  - ibus-table-others
+  - ibus-uniemoji
+  - iconthemebrowser
+  - imgur.sh
+  - imgurbash2
+  - komorebi
+  - mdbook
+  - micro
+  - miniserve
+  - nautilus-folder-icons
+  - nodejs-ungit
+  - nord-gedit
+  - numix-gtk-theme
+  - nushell
+  - nvm
+  - pamac-aur
+  - plata-theme
+  - pretty-exec
+  - proton
+  - sane-fmt
+  - scriptisto
+  - sfz
+  - starship
+  - stockfish
+  - strip-ansi
+  - tuir
+  - update-grub
+  - webtorrent-desktop
+  - ytop
