@@ -32,6 +32,7 @@ aur-package-names:
   - gnome-session-properties
   - googler
   - gotop
+  - grex
   - gtksourceview3-pkgbuild
   - ibus-daemon
   - ibus-table-others
