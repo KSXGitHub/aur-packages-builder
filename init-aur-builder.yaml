@@ -14,7 +14,20 @@ aur-package-names:
   - archive-mounter
   - aurvote
   - bottom
+  - cargo-bloat
+  - cargo-cache
+  - cargo-deny
+  - cargo-depgraph
+  - cargo-deps
+  - cargo-flamegraph
+  - cargo-geiger
+  - cargo-insta
+  - cargo-license
+  - cargo-pkgbuild
+  - cargo-script
+  - cargo-spellcheck
   - cargo-udeps
+  - cargo-update
   - debtap
   - dialect
   - dust
