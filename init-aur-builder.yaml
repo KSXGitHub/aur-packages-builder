@@ -60,6 +60,7 @@ aur-package-names:
   - starship
   - stockfish
   - strip-ansi
+  - tealdeer
   - tuir
   - update-grub
   - webtorrent-desktop
