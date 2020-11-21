@@ -40,6 +40,9 @@ jobs:
             rustup toolchain install stable
             rustup default stable
 
+            # cargo-spellcheck depends on hunspell-sys which requires libclang.so
+            pacman -S --noconfirm clang
+
             build-pacman-repo build
 
       - name: Inspect changed failed build record
