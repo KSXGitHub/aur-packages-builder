@@ -47,7 +47,6 @@ aur-package-names:
   - gotop
   - grex
   - gtksourceview3-pkgbuild
-  - hlint-bin
   - ibus-daemon
   - ibus-table-others
   - ibus-uniemoji
@@ -71,7 +70,6 @@ aur-package-names:
   - sane-fmt
   - scriptisto
   - sfz
-  - shellcheck-bin
   - starship
   - stockfish
   - strip-ansi
