@@ -33,6 +33,8 @@ aur-package-names:
   - dust
   - editorconfig-gedit
   - emulsion
+  - evcxr_jupyter
+  - evcxr_repl
   - gedit-cut-line
   - gedit-duplicate-line
   - gedit-panel-toggler
