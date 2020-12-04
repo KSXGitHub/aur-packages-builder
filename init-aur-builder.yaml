@@ -68,6 +68,7 @@ aur-package-names:
   - nushell
   - nvm
   - pamac-aur
+  - peco
   - plata-theme
   - pretty-exec
   - proton
