@@ -36,6 +36,7 @@ aur-package-names:
   - emulsion
   - evcxr_jupyter
   - evcxr_repl
+  - faq
   - gedit-cut-line
   - gedit-duplicate-line
   - gedit-panel-toggler
