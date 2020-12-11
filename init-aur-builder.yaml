@@ -85,5 +85,6 @@ aur-package-names:
   - tealdeer
   - tuir
   - update-grub
+  - wasm-pack
   - webtorrent-desktop
   - ytop
