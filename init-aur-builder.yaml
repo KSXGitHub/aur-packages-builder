@@ -87,5 +87,6 @@ aur-package-names:
   - tuir
   - update-grub
   - wasm-pack
+  - wasmtime
   - webtorrent-desktop
   - ytop
