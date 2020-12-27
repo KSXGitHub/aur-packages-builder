@@ -30,6 +30,7 @@ aur-package-names:
   - cargo-update
   - cargo-web
   - debtap
+  - devdocs-desktop
   - dialect
   - dust
   - editorconfig-gedit
