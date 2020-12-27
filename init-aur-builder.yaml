@@ -90,6 +90,7 @@ aur-package-names:
   - tealdeer
   - tuir
   - update-grub
+  - video-downloader
   - wasm-pack
   - wasmtime
   - webtorrent-desktop
