@@ -81,6 +81,7 @@ aur-package-names:
   - proton
   - quickdocs
   - ripgrep-all
+  - rr
   - sane-fmt
   - scriptisto
   - sfz
