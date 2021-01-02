@@ -13,6 +13,7 @@ aur-package-names:
   - adduser
   - archive-mounter
   - aurvote
+  - boop-gtk
   - bottom
   - cargo-bloat
   - cargo-cache
