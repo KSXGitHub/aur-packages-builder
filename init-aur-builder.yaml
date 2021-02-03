@@ -77,6 +77,7 @@ aur-package-names:
   - nvm
   - onefetch
   - pamac-aur
+  - paru
   - peco
   - plata-theme
   - pretty-exec
