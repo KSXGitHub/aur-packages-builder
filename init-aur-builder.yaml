@@ -47,6 +47,7 @@ aur-package-names:
   - git-delta
   - giara
   - gitui
+  - git-interactive-rebase-tool
   - gnome-session-properties
   - googler
   - gotop
