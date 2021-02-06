@@ -44,10 +44,10 @@ aur-package-names:
   - gedit-panel-toggler
   - gedit-scroll-past
   - gedit-trailsave
-  - git-delta
   - giara
-  - gitui
+  - git-delta
   - git-interactive-rebase-tool
+  - gitui
   - gnome-session-properties
   - googler
   - gotop
