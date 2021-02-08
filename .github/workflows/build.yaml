@@ -24,14 +24,14 @@ jobs:
         run: cat pacman-repo/failed-build-records/aur-packages-builder.yaml
 
       - name: Init AUR Builder
-        uses: pacman-repo-builder/action@46875ef85c1614697cc6ec24f6b054f4e163b5bd
+        uses: pacman-repo-builder/action@2ed627e604344b46487f189d485d37349c387967
         with:
           command: |
             build-pacman-repo init-aur-builder
             cat build-pacman-repo.yaml
 
       - name: Build pacman packages
-        uses: pacman-repo-builder/action@46875ef85c1614697cc6ec24f6b054f4e163b5bd
+        uses: pacman-repo-builder/action@2ed627e604344b46487f189d485d37349c387967
         with:
           command: |
             # some packages require nightly rust
