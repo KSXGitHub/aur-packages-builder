@@ -34,12 +34,6 @@ jobs:
         uses: pacman-repo-builder/action@0.0.0-rc.49
         with:
           command: |
-            # some packages require nightly rust
-            pacman -S --noconfirm rustup
-            rustup toolchain install nightly
-            rustup toolchain install stable
-            rustup default stable
-
             # cargo-spellcheck depends on hunspell-sys which requires libclang.so
             pacman -S --noconfirm clang
 
