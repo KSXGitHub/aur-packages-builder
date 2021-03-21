@@ -11,7 +11,6 @@ global-settings:
   packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
 aur-package-names:
   - adduser
-  - amp
   - archive-mounter
   - aurvote
   - boop-gtk
