@@ -24,14 +24,14 @@ jobs:
         run: cat pacman-repo/failed-build-records/aur-packages-builder.yaml
 
       - name: Init AUR Builder
-        uses: pacman-repo-builder/action@0.0.0-rc.52
+        uses: pacman-repo-builder/action@0.0.0-rc.55
         with:
           command: |
             build-pacman-repo init-aur-builder
             cat build-pacman-repo.yaml
 
       - name: Build pacman packages
-        uses: pacman-repo-builder/action@0.0.0-rc.52
+        uses: pacman-repo-builder/action@0.0.0-rc.55
         with:
           command: |
             # cargo-spellcheck depends on hunspell-sys which requires libclang.so
