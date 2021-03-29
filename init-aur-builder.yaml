@@ -51,6 +51,7 @@ aur-package-names:
   - gnome-session-properties
   - googler
   - gotop
+  - grcov
   - grex
   - gron
   - gtksourceview3-pkgbuild
