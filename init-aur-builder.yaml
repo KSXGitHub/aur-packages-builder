@@ -67,6 +67,7 @@ aur-package-names:
   - jupyterthemes
   - komikku
   - komorebi
+  - lcov
   - mdbook
   - micro
   - nautilus-folder-icons
