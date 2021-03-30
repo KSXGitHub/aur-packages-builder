@@ -34,6 +34,7 @@ aur-package-names:
   - devdocs-desktop
   - dialect
   - dust
+  - dutree
   - editorconfig-gedit
   - emulsion
   - evcxr_jupyter
