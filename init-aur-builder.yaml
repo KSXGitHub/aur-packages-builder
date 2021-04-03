@@ -89,6 +89,7 @@ aur-package-names:
   - quickdocs
   - ripgrep-all
   - rr
+  - rustscan
   - sane-fmt
   - scriptisto
   - sfz
