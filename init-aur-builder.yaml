@@ -15,6 +15,7 @@ aur-package-names:
   - aurvote
   - boop-gtk
   - bottom
+  - build-fs-tree
   - cargo-bloat
   - cargo-cache
   - cargo-deny
