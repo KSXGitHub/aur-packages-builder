@@ -73,6 +73,7 @@ aur-package-names:
   - lcov
   - mdbook
   - nautilus-folder-icons
+  - nerd-fonts-cascadia-code
   - newsflash
   - nodejs-ungit
   - nord-gedit
