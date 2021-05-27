@@ -34,7 +34,6 @@ aur-package-names:
   - debtap
   - devdocs-desktop
   - dialect
-  - dust
   - dutree
   - editorconfig-gedit
   - emulsion
@@ -81,6 +80,7 @@ aur-package-names:
   - nvm
   - onefetch
   - pamac-aur
+  - parallel-disk-usage
   - paru
   - peco
   - plata-theme
