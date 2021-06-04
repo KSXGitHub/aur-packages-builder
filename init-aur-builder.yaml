@@ -90,6 +90,7 @@ aur-package-names:
   - ripgrep-all
   - rr
   - rustscan
+  - sad
   - sane-fmt
   - scriptisto
   - sfz
