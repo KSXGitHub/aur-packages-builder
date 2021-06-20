@@ -27,6 +27,7 @@ aur-package-names:
   - cargo-license
   - cargo-pkgbuild
   - cargo-script
+  - cargo-sort
   - cargo-spellcheck
   - cargo-udeps
   - cargo-update
