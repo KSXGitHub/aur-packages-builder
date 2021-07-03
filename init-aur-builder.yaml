@@ -82,6 +82,7 @@ aur-package-names:
   - procs
   - ripgrep-all
   - rr
+  - rua
   - rustscan
   - sad
   - sane-fmt
