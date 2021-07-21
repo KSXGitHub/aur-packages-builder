@@ -32,6 +32,7 @@ aur-package-names:
   - cargo-udeps
   - cargo-update
   - cargo-web
+  - choose
   - dialect
   - editorconfig-gedit
   - emulsion
