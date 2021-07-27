@@ -91,7 +91,6 @@ aur-package-names:
   - stockfish
   - strip-ansi
   - tealdeer
-  - tuir
   - update-grub
   - wasm-pack
   - wasmtime
