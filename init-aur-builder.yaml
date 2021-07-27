@@ -43,7 +43,6 @@ aur-package-names:
   - gedit-panel-toggler
   - gedit-scroll-past
   - gedit-trailsave
-  - giara
   - git-delta
   - git-interactive-rebase-tool
   - gnome-session-properties
