@@ -36,7 +36,6 @@ aur-package-names:
   - dialect
   - editorconfig-gedit
   - emulsion
-  - evcxr_jupyter
   - evcxr_repl
   - freetube
   - gedit-cut-line
