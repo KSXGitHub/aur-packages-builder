@@ -78,6 +78,7 @@ aur-package-names:
   - plata-theme
   - pretty-exec
   - procs
+  - pulseaudio-virtualmic
   - ripgrep-all
   - rr
   - rua
