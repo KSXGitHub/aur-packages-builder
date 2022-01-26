@@ -96,5 +96,6 @@ aur-package-names:
   - update-grub
   - wasm-pack
   - wasmtime
+  - xcp
   - yuzu-early-access
   - zenith
