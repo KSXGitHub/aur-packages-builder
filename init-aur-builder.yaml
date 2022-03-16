@@ -36,6 +36,7 @@ aur-package-names:
   - choose
   - cpufreqctl
   - dialect
+  - dprint
   - editorconfig-gedit
   - emulsion
   - evcxr_repl
