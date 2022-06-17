@@ -14,6 +14,7 @@ aur-package-names:
   - apostrophe
   - archive-mounter
   - aurvote
+  - authenticator
   - boop-gtk
   - bottom
   - build-fs-tree
