@@ -102,6 +102,7 @@ aur-package-names:
   - starship
   - strip-ansi
   - tealdeer
+  - tor-browser
   - update-grub
   - wasm-pack
   - wasmtime
