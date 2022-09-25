@@ -38,6 +38,7 @@ aur-package-names:
   - choose
   - clapper
   - commit
+  - cpu-x
   - cpufreqctl
   - dialect
   - dprint
