@@ -76,8 +76,6 @@ aur-package-names:
   - love07
   - mdbook
   - newsflash
-  - nodejs-ungit
-  - nord-gedit
   - numix-gtk-theme
   - nushell
   - nvm
@@ -90,7 +88,6 @@ aur-package-names:
   - pretty-exec
   - procs
   - proton-usage
-  - pulseaudio-virtualmic
   - ripgrep-all
   - rr
   - rua
