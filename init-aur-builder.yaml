@@ -57,9 +57,7 @@ aur-package-names:
   - grcov
   - grex
   - gron
-  - gtksourceview3-pkgbuild
-  - gtksourceview4-pkgbuild
-  - gtksourceview5-pkgbuild
+  - gtksourceview-pkgbuild
   - hunspell-vi
   - ibus-bamboo
   - ibus-daemon
