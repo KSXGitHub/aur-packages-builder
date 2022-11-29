@@ -59,7 +59,6 @@ def main [command: string] {
     let span = (metadata $command).span
     error make {
       msg: 'Invalid command: Must be either "all", "needed", or "unneeded"'
-      text: $command
       start: span.start
       end: span.end
     }
