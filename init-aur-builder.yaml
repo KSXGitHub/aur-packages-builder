@@ -27,6 +27,7 @@ aur-package-names:
   - cargo-geiger
   - cargo-insta
   - cargo-license
+  - cargo-make
   - cargo-pkgbuild
   - cargo-script
   - cargo-sort
@@ -44,6 +45,7 @@ aur-package-names:
   - dprint
   - editorconfig-gedit
   - emulsion
+  - eva
   - evcxr_repl
   - gedit-cut-line
   - gedit-duplicate-line
@@ -68,12 +70,14 @@ aur-package-names:
   - jid
   - jo
   - jql
+  - kiro
   - komorebi
   - kooha
   - lapce
   - lcov
   - love07
   - mdbook
+  - mdcat
   - newsflash
   - numix-gtk-theme
   - nushell
@@ -100,6 +104,7 @@ aur-package-names:
   - strip-ansi
   - tealdeer
   - tor-browser
+  - trunk
   - update-grub
   - wasm-pack
   - wasmtime
