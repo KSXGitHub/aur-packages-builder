@@ -14,7 +14,5 @@ def is-pkg-needed [name: string] {
 def main [] {
   open ./init-aur-builder.yaml
     | get aur-package-names
-    | wrap name
-    | insert needed {|x| is-pkg-needed $x.name}
-    | where needed == false
+    | where {|name| not (is-pkg-needed $name)}
 }
