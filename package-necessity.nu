@@ -46,6 +46,7 @@ def show-data [] {
   load-pkg-name
     | pkg from name get repo
     | insert needed {|x| pkg repo is-needed $x.repo}
+    | update repo {|x| $x.repo | str join ', '}
 }
 
 def main [command: string] {
