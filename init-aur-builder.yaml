@@ -58,6 +58,7 @@ aur-package-names:
   - kiro
   - komorebi
   - love07
+  - miopen-opencl
   - numix-gtk-theme
   - nvm
   - pamac-aur
