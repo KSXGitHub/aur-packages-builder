@@ -31,7 +31,6 @@ aur-package-names:
   - commit
   - cpu-x
   - cpufreqctl
-  - dialect
   - dprint
   - editorconfig-gedit
   - emulsion
