@@ -24,7 +24,6 @@ aur-package-names:
   - cargo-make
   - cargo-pkgbuild
   - cargo-script
-  - cargo-update
   - cargo-web
   - cargo-workspaces
   - clapper
@@ -72,7 +71,6 @@ aur-package-names:
   - scriptisto
   - sfz
   - strip-ansi
-  - tor-browser
   - trunk
   - update-grub
   - xcp
