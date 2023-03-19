@@ -10,12 +10,12 @@ global-settings:
   check: disabled
   packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
 aur-package-names:
-  - adduser
-  - apostrophe
-  - archive-mounter
-  - aurvote
-  - authenticator
-  - boop-gtk
+  # - adduser
+  # - apostrophe
+  # - archive-mounter
+  # - aurvote
+  # - authenticator
+  # - boop-gtk
   - build-fs-tree
   - cargo-cache
   - cargo-deps
@@ -23,55 +23,55 @@ aur-package-names:
   - cargo-license
   - cargo-make
   - cargo-pkgbuild
-  - cargo-script
-  - cargo-web
-  - cargo-workspaces
-  - clapper
-  - commit
-  - cpu-x
-  - cpufreqctl
-  - dprint
-  - editorconfig-gedit
-  - emulsion
-  - evcxr_repl
-  - gedit-cut-line
-  - gedit-duplicate-line
-  - gedit-panel-toggler
-  - gedit-scroll-past
-  - gedit-trailsave
-  - git-interactive-rebase-tool
-  - gnome-session-properties
-  - gnome-shell-extension-cpufreq
-  - hunspell-vi
-  - ibus-bamboo
-  - ibus-daemon
-  - ibus-table-others
-  - ibus-uniemoji
-  - iconthemebrowser
-  - imgur.sh
-  - imgurbash2
-  - jid
-  - joshuto
-  - jql
-  - kiro
-  - komorebi
-  - love07
-  - numix-gtk-theme
-  - nvm
-  - pamac-aur
-  - parallel-disk-usage
-  - paru
-  - plata-theme
-  - pretty-exec
-  - proton-usage
-  - rr
-  - rua
-  - rustdesk
-  - sane-fmt
-  - scriptisto
-  - sfz
-  - strip-ansi
-  - trunk
-  - update-grub
-  - xcp
-  - zenith
+  # - cargo-script
+  # - cargo-web
+  # - cargo-workspaces
+  # - clapper
+  # - commit
+  # - cpu-x
+  # - cpufreqctl
+  # - dprint
+  # - editorconfig-gedit
+  # - emulsion
+  # - evcxr_repl
+  # - gedit-cut-line
+  # - gedit-duplicate-line
+  # - gedit-panel-toggler
+  # - gedit-scroll-past
+  # - gedit-trailsave
+  # - git-interactive-rebase-tool
+  # - gnome-session-properties
+  # - gnome-shell-extension-cpufreq
+  # - hunspell-vi
+  # - ibus-bamboo
+  # - ibus-daemon
+  # - ibus-table-others
+  # - ibus-uniemoji
+  # - iconthemebrowser
+  # - imgur.sh
+  # - imgurbash2
+  # - jid
+  # - joshuto
+  # - jql
+  # - kiro
+  # - komorebi
+  # - love07
+  # - numix-gtk-theme
+  # - nvm
+  # - pamac-aur
+  # - parallel-disk-usage
+  # - paru
+  # - plata-theme
+  # - pretty-exec
+  # - proton-usage
+  # - rr
+  # - rua
+  # - rustdesk
+  # - sane-fmt
+  # - scriptisto
+  # - sfz
+  # - strip-ansi
+  # - trunk
+  # - update-grub
+  # - xcp
+  # - zenith
