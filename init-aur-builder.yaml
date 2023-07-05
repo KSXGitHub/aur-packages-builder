@@ -11,20 +11,11 @@ global-settings:
   packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
 aur-package-names:
   - adduser
-  - apostrophe
   - archive-mounter
   - aurvote
-  - authenticator
   - boop-gtk
   - build-fs-tree
-  - cargo-cache
-  - cargo-deps
   - cargo-insta
-  - cargo-license
-  - cargo-make
-  - cargo-pkgbuild
-  - cargo-script
-  - cargo-web
   - cargo-workspaces
   - clapper
   - commit
@@ -32,7 +23,6 @@ aur-package-names:
   - cpufreqctl
   - dprint
   - editorconfig-gedit
-  - emulsion
   - evcxr_repl
   - gedit-cut-line
   - gedit-duplicate-line
