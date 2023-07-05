@@ -10,35 +10,35 @@ global-settings:
   check: disabled
   packager: 'Hoàng Văn Khải <hvksmr1996@gmail.com>'
 aur-package-names:
-  - adduser
-  - apostrophe
-  - archive-mounter
-  - aurvote
-  - authenticator
-  - boop-gtk
-  - build-fs-tree
-  - cargo-cache
-  - cargo-deps
-  - cargo-insta
-  - cargo-license
-  - cargo-make
-  - cargo-pkgbuild
-  - cargo-script
-  - cargo-web
-  - cargo-workspaces
-  - clapper
-  - commit
-  - cpu-x
-  - cpufreqctl
-  - dprint
-  - editorconfig-gedit
-  - emulsion
-  - evcxr_repl
-  - gedit-cut-line
-  - gedit-duplicate-line
-  - gedit-panel-toggler
-  - gedit-scroll-past
-  - gedit-trailsave
+  # - adduser
+  # - apostrophe
+  # - archive-mounter
+  # - aurvote
+  # - authenticator
+  # - boop-gtk
+  # - build-fs-tree
+  # - cargo-cache
+  # - cargo-deps
+  # - cargo-insta
+  # - cargo-license
+  # - cargo-make
+  # - cargo-pkgbuild
+  # - cargo-script
+  # - cargo-web
+  # - cargo-workspaces
+  # - clapper
+  # - commit
+  # - cpu-x
+  # - cpufreqctl
+  # - dprint
+  # - editorconfig-gedit
+  # - emulsion
+  # - evcxr_repl
+  # - gedit-cut-line
+  # - gedit-duplicate-line
+  # - gedit-panel-toggler
+  # - gedit-scroll-past
+  # - gedit-trailsave
   - git-interactive-rebase-tool
   - gnome-session-properties
   - gnome-shell-extension-cpufreq
