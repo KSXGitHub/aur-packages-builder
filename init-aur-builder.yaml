@@ -20,7 +20,6 @@ aur-package-names:
   - clapper
   - commit
   - cpu-x
-  - cpufreqctl
   - dprint
   - editorconfig-gedit
   - evcxr_repl
@@ -35,7 +34,6 @@ aur-package-names:
   - hunspell-vi
   - ibus-bamboo
   - ibus-daemon
-  - ibus-table-others
   - ibus-uniemoji
   - iconthemebrowser
   - imgur.sh
@@ -43,9 +41,7 @@ aur-package-names:
   - jid
   - jql
   - kiro
-  - komorebi
   - love07
-  - numix-gtk-theme
   - nvm
   - pamac-aur
   - parallel-disk-usage
@@ -53,7 +49,6 @@ aur-package-names:
   - plata-theme
   - pretty-exec
   - proton-usage
-  - rr
   - rua
   - rustdesk
   - sane-fmt
