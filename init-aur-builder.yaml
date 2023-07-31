@@ -32,31 +32,31 @@ aur-package-names:
   - gnome-session-properties
   - gnome-shell-extension-cpufreq
   - hunspell-vi
-  # - ibus-bamboo
-  # - ibus-daemon
-  # - ibus-uniemoji
-  # - iconthemebrowser
-  # - imgur.sh
-  # - imgurbash2
-  # - jid
-  # - jql
-  # - kiro
-  # - love07
-  # - nvm
-  # - pamac-aur
-  # - parallel-disk-usage
-  # - paru
-  # - plata-theme
-  # - pretty-exec
-  # - proton-usage
-  # - rua
-  # - rustdesk
-  # - sane-fmt
-  # - scriptisto
-  # - sfz
-  # - strip-ansi
-  # - trunk
-  # - trurl
-  # - update-grub
-  # - xcp
-  # - zenith
+  - ibus-bamboo
+  - ibus-daemon
+  - ibus-uniemoji
+  - iconthemebrowser
+  - imgur.sh
+  - imgurbash2
+  - jid
+  - jql
+  - kiro
+  - love07
+  - nvm
+  - pamac-aur
+  - parallel-disk-usage
+  - paru
+  - plata-theme
+  - pretty-exec
+  - proton-usage
+  - rua
+  - rustdesk
+  - sane-fmt
+  - scriptisto
+  - sfz
+  - strip-ansi
+  - trunk
+  - trurl
+  - update-grub
+  - xcp
+  - zenith
