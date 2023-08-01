@@ -41,9 +41,9 @@ aur-package-names:
   # - jid
   # - jql
   # - kiro
-  # - love07
-  # - nvm
-  # - pamac-aur
+  - love07
+  - nvm
+  - pamac-aur
   - parallel-disk-usage
   - paru
   - plata-theme
