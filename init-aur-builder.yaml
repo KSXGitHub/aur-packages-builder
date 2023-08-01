@@ -38,12 +38,12 @@ aur-package-names:
   - iconthemebrowser
   - imgur.sh
   - imgurbash2
-  # - jid
-  # - jql
-  # - kiro
+  - jid
+  - jql
+  - kiro
   - love07
   - nvm
-  - pamac-aur
+  # - pamac-aur
   - parallel-disk-usage
   - paru
   - plata-theme
