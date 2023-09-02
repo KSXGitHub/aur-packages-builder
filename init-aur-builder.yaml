@@ -15,6 +15,7 @@ aur-package-names:
   - aurvote
   - boop-gtk
   - build-fs-tree
+  - cargo-hack
   - cargo-insta
   - cargo-workspaces
   - clapper
