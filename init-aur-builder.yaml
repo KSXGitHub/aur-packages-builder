@@ -19,7 +19,7 @@ aur-package-names:
   - cargo-hack
   - cargo-insta
   - cargo-workspaces
-  - clapper
+  - commit
   - cpu-x
   - dprint
   - editorconfig-gedit
