@@ -15,21 +15,21 @@ aur-package-names:
   - archive-mounter
   - aurvote
   - boop-gtk
-  - build-fs-tree
-  - cargo-hack
-  - cargo-insta
-  - cargo-workspaces
-  - cpu-x
-  # - dprint
-  # - editorconfig-gedit
-  # - evcxr_repl
-  # - firefox-pwa
-  # - gedit-cut-line
-  # - gedit-duplicate-line
-  # - gedit-panel-toggler
-  # - gedit-scroll-past
-  # - gedit-trailsave
-  # - git-interactive-rebase-tool
+  # - build-fs-tree
+  # - cargo-hack
+  # - cargo-insta
+  # - cargo-workspaces
+  # - cpu-x
+  - dprint
+  - editorconfig-gedit
+  - evcxr_repl
+  - firefox-pwa
+  - gedit-cut-line
+  - gedit-duplicate-line
+  - gedit-panel-toggler
+  - gedit-scroll-past
+  - gedit-trailsave
+  - git-interactive-rebase-tool
   - gnome-session-properties
   - gnome-shell-extension-cpufreq
   - hunspell-vi
