@@ -12,14 +12,14 @@ global-settings:
 aur-package-names:
   - act
   - adduser
-  - archive-mounter
-  - aurvote
-  - boop-gtk
-  # - build-fs-tree
-  # - cargo-hack
-  # - cargo-insta
-  # - cargo-workspaces
-  # - cpu-x
+  # - archive-mounter
+  # - aurvote
+  # - boop-gtk
+  - build-fs-tree
+  - cargo-hack
+  - cargo-insta
+  - cargo-workspaces
+  - cpu-x
   - dprint
   - editorconfig-gedit
   - evcxr_repl
