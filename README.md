@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repo is temporary disabled. It was replaced with [aur-packages-builder-1](https://github.com/KSXGitHub/aur-packages-builder-1) and [aur-packages-builder-2](https://github.com/KSXGitHub/aur-packages-builder-2).
+
 # AUR Packages Builder
 
 [![.github/workflows/build.yaml](https://github.com/KSXGitHub/aur-packages-builder/workflows/.github/workflows/build.yaml/badge.svg)](https://github.com/KSXGitHub/aur-packages-builder/actions)
