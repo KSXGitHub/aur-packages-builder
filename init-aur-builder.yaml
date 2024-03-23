@@ -30,32 +30,32 @@ aur-package-names:
   - gedit-scroll-past
   - gedit-trailsave
   - git-interactive-rebase-tool
-  - gnome-session-properties
-  - gnome-shell-extension-cpufreq
-  - hunspell-vi
-  - ibus-bamboo
-  - ibus-daemon
-  - ibus-uniemoji
-  - iconthemebrowser
-  - imgur.sh
-  - imgurbash2
-  - jid
-  - jql
-  - kiro
-  - love07
-  - nvm
-  - parallel-disk-usage
-  - paru
-  - plata-theme
-  - pretty-exec
-  - proton-usage
-  - rua
-  - sane-fmt
-  - scriptisto
-  - sfz
-  - strip-ansi
-  - trunk
-  - trurl
-  - update-grub
-  - xcp
-  - zenith
+  # - gnome-session-properties
+  # - gnome-shell-extension-cpufreq
+  # - hunspell-vi
+  # - ibus-bamboo
+  # - ibus-daemon
+  # - ibus-uniemoji
+  # - iconthemebrowser
+  # - imgur.sh
+  # - imgurbash2
+  # - jid
+  # - jql
+  # - kiro
+  # - love07
+  # - nvm
+  # - parallel-disk-usage
+  # - paru
+  # - plata-theme
+  # - pretty-exec
+  # - proton-usage
+  # - rua
+  # - sane-fmt
+  # - scriptisto
+  # - sfz
+  # - strip-ansi
+  # - trunk
+  # - trurl
+  # - update-grub
+  # - xcp
+  # - zenith
